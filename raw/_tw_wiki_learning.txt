@@ -1,0 +1,21 @@
+﻿# OpenClaw-hermes自学习闭环构建记录
+
+## 2026-04-24 构建记录
+
+### 已完成组件
+1. hermes-learning skill（SKILL.md + llm_wikify_bridge.py + skill_auto_creator.py）
+2. self-improving 目录（corrections.md / memory.md / index.md / heartbeat-state.md）
+3. llmwikify 知识库（134 pages / 664 sources / 132 indexed）
+4. 整合方案文档 v1（21.9KB）+ v2（15.7KB）
+5. SkillAutoCreator 生成了 hermes-closed-loop skill 模板（待审核）
+
+### 核心教训
+- 先做最小可用，边做边完善，拒绝过度规划
+- 关键结论立即写文件，不依赖上下文记忆
+- corrections.md 用 append 不 overwrite
+- llmwikify 命令：PYTHONUTF8=1 前缀
+
+### 缺失
+Phase 2-3 未开始，核心模块未固化为独立可执行单元
+
+_由 hermes-learning skill 于 2026-04-24 自动写入_

@@ -1,0 +1,81 @@
+# Ignore everything by default
+*
+
+# Allow workspace config files (except TOOLS.md which contains secrets)
+!AGENTS.md
+!HEARTBEAT.md
+!IDENTITY.md
+!MEMORY.md
+!SOUL.md
+!USER.md
+
+# Allow project docs
+!hermes-openclaw-integration-plan.md
+!hermes-openclaw-integration-plan-v2.md
+
+# Allow skills directory
+!skills/
+!skills/**
+
+# Allow memory directory
+!memory/
+!memory/**
+
+# Allow sessions directory
+!sessions/
+!sessions/**
+
+# Allow wiki directory
+!wiki/
+!wiki/**
+
+# Allow source directory
+!source/
+!source/**
+
+# Allow ai-guide
+!ai-guide-main/
+!ai-guide-main/**
+
+# Allow claude-code-best-practice
+!claude-code-best-practice/
+!claude-code-best-practice/**
+!claude-code-best-practice-main/
+!claude-code-best-practice-main/**
+
+# Allow context-engineering-intro
+!context-engineering-intro-main/
+!context-engineering-intro-main/**
+
+# Allow raw directory
+!raw/
+!raw/**
+
+# Allow task summaries (artifacts)
+!task-summary_*.md
+!phase*.md
+!heartbeat-*.md
+
+# Allow step-guard skill
+!step-guard.skill
+
+# Allow README
+!README.md
+!LICENSE
+!.gitignore
+
+# Explicitly block sensitive / temp / binary
+TOOLS.md
+*.zip
+*.log
+*.db
+*.json
+.consolidate-state.json
+.heartbeat-state.json
+.openclaw/
+.wiki-config.yaml
+.wiki-config.yaml.example
+.wiki-incoming/
+._heartbeat*
+tmp_*
+{workspace_root_dir}/
