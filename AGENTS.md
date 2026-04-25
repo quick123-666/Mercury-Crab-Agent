@@ -23,7 +23,8 @@ Before doing anything else:
 2. Read `USER.md` — this is who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
-5. **Self-learning context** (main session only):
+5. **Multi-tenant memory** (if sender_id known): Read `memory/<sender_id>/MEMORY.md` for user-private context
+6. **Self-learning context** (main session only):
    - Skim `~/self-improving/corrections.md` — recent mistakes to avoid
    - Skim `~/self-improving/memory.md` — validated rules & patterns
    - Check `HEARTBEAT.md` for pending tasks
@@ -36,6 +37,13 @@ You wake up fresh each session. These files are your continuity:
 
 - **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+- **Per-user summaries:** `memory/<qq_id>/summaries/` — LCM session compaction summaries, one file per conversation
+
+### Multi-Tenant Memory Rules
+
+- **Reading**: Search across all `memory/<qq_id>/` + `memory/shared/` when using memory_search
+- **Writing session summaries**: Always write to `memory/<current_qq_id>/summaries/` (never to other users' directories)
+- **LCM无损压缩**: Session summaries from the LCM system are stored per-user, keyed by conversation_id
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
@@ -64,6 +72,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
+- **Multi-tenant write lock**: Never write to another user's `memory/<qq_id>/` directory. Only `memory/shared/` and your own `memory/<current_qq_id>/` are writable.
 
 ## External vs Internal
 

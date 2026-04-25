@@ -1,8 +1,8 @@
 # Wiki Index
 
-Last updated: 2026-04-25T09:54:04.631122Z
+Last updated: 2026-04-25T17:54:30.528169Z
 
-Total pages: 141 — Overview: 7 | Concepts: 4 | Entities: 2 | Entity: 2 | Logs: 1 | Projects: 116 | Source: 9
+Total pages: 142 — Overview: 7 | Concepts: 4 | Entities: 2 | Entity: 2 | Logs: 1 | Projects: 116 | Source: 10
 
 ---
 
@@ -282,7 +282,7 @@ Total pages: 141 — Overview: 7 | Concepts: 4 | Entities: 2 | Entity: 2 | Logs:
 
 - [[projects\context-engineering-validation\ultimate_validate_command]] - Analyze this codebase deeply and create .claude/commands/validate.md that comprehensively validates everything.| 🔗 0 out | 1 in | 📝 678 words
 
-## Source (9)
+## Source (10)
 
 - [[source\conversation-2026-04-24-bridge-fix]] - Record of a CLI command syntax fix applied to the `llm_wikify_bridge.py` bridge script on 2026-04-24 at 22:56. The `l...| 🔗 2 out | 1 in | 📝 304 words
 
@@ -293,6 +293,8 @@ Total pages: 141 — Overview: 7 | Concepts: 4 | Entities: 2 | Entity: 2 | Logs:
 - [[source\conversation-2026-04-24]] - ﻿# 对话记录 - 2026-04-24| 🔗 0 out | 5 in | 📝 28 words
 
 - [[source\conversation-2026-04-25-session1]] - 今日执行 wiki-auto-save 定时任务多次，主要记录：| 🔗 0 out | 1 in | 📝 30 words
+
+- [[source\conversation-2026-04-25]] - 任务：cron wiki-auto-save| 📝 10 words
 
 - [[source\feishu-bot-setup]] - Feishu bot setup guide covering three main areas: app creation in Feishu Open Platform, permission configuration, and...| 🔗 2 out | 1 in | 📝 206 words
 

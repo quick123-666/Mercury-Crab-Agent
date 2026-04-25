@@ -1655,3 +1655,19 @@ Initialized: 2026-04-24T02:00:27.875200Z
 ## [2026-04-25T06:06:24.167859Z] ingest | Source (markdown): 规范: corrections.md 用 append 模式，不要 overwrite → raw/规范-correctionsmd-用-append-模式不要-overwrite.md
 ## [2026-04-25T06:19:35.868612Z] ingest | Source (markdown): 2026-04-25 Daily Memory
 ## [2026-04-25T06:46:24.884013Z] ingest | Source (markdown): 2026-04-25 Daily Memory
+## [2026-04-25T15:06:25.204634Z] ingest | Source (markdown): Hermes-OpenClaw 自主学习闭环系统 → raw/hermes-openclaw-自主学习闭环系统.md
+## [2026-04-25T15:07:05.941288Z] ingest | Source (markdown): Hermes-OpenClaw 自主学习闭环系统
+## [2026-04-25T15:07:09.004344Z] ingest | Source (markdown): 系统架构图 → raw/系统架构图.md
+## [2026-04-25T15:07:12.081344Z] ingest | Source (markdown): 项目背景与目标 → raw/项目背景与目标.md
+## [2026-04-25T15:07:15.123460Z] ingest | Source (markdown): 环境要求 → raw/环境要求.md
+## [2026-04-25T15:07:18.199623Z] ingest | Source (markdown): 目录结构 → raw/目录结构.md
+## [2026-04-25T15:07:21.224991Z] ingest | Source (markdown): hermes-learning → raw/hermes-learning.md
+## [2026-04-25T15:07:24.231192Z] ingest | Source (markdown): Phase 1 核心模块说明 → raw/phase-1-核心模块说明.md
+## [2026-04-25T15:07:27.241612Z] ingest | Source (markdown): HEARTBEAT → raw/heartbeat.md
+## [2026-04-25T15:07:30.328280Z] ingest | Source (markdown): Phase 2 自动化心跳说明 → raw/phase-2-自动化心跳说明.md
+## [2026-04-25T15:07:33.472674Z] ingest | Source (markdown): Phase 3 进阶模块说明 → raw/phase-3-进阶模块说明.md
+## [2026-04-25T15:07:36.544332Z] ingest | Source (markdown): 技术教训合集 → raw/技术教训合集.md
+## [2026-04-25T15:07:39.598079Z] ingest | Source (markdown): 完整文件清单 → raw/完整文件清单.md
+## [2026-04-25T15:07:42.597957Z] ingest | Source (markdown): 部署步骤（5 分钟上手） → raw/部署步骤5-分钟上手.md
+## [2026-04-25T15:07:45.683380Z] ingest | Source (markdown): 验证测试 → raw/验证测试.md
+## [2026-04-25T15:07:48.892922Z] ingest | Source (markdown): 我的 GitHub 仓库 → raw/我的-github-仓库.md

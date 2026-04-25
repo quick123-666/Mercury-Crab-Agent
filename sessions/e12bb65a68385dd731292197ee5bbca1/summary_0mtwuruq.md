@@ -1,16 +1,33 @@
-## 任务背景
-用户更正项目名称为自己原提议的连字符版本。
+This conversation segment shows:
 
-## 执行过程
-1. 上轮确认MercuryCrab，写入MEMORY.md和memory日志
-2. 用户说"用我的"→选择原提议Mercury-Crab-Agent（保留连字符）
-3. MEMORY.md更新为Mercury-Crab-Agent
-4. memory/2026-04-25.md追加18:19纠正记录，修正18:17的错误记录
+1. Step 11 was completed (invoke routing to Gateway via chat/completions)
+2. User said "继续" (continue)
+3. Step 12 was executed - registry auto-sync integrated into Hub:
+   - On client connect: auto update registry
+   - On client disconnect: auto update registry
+   - Background thread: sync every 30 seconds
+   - Current status: CLAUDE_CODE registered, `connected: false`
+4. Step 12 completed ✅
+5. Assistant asked "Mercury-Crab Hub Steps 1-12 全部完成。要继续什么？" (All done. Continue with what?)
+6. Pre-compaction flush at 03:32 captured full completion
 
-## 关键结果
-- 项目最终命名：**Mercury-Crab-Agent**（非MercuryCrab）
-- MEMORY.md已更正✅
-- memory日志已记录纠正过程
+So the progression:
+- Step 1-12 all completed ✅
+- Next steps outlined: Step 13+ (active push capability), Step 15+ (end-to-end encryption/Mercury Protocol)
 
-## 结论建议
-项目正式名为Mercury-Crab-Agent，后续所有引用使用此名。
+Key details:
+- Registry path: `C:\Users\Administrator\.qclaw\workspace\mercury_crab_hubegistry.json`
+- Hub architecture: port 8080, TCP socket server, auth via API Key, invoke via Gateway, notify writes to program memory
+
+Known limitations:
+- Cannot proactively send messages to connected programs (Hub→Client requires client to initiate)
+- notify format: `<!-- ts -->
+{"data": ...}` without outer wrapper
+
+This is a major milestone - all 12 planned steps are now complete. The Mercury-Crab Hub is fully functional with registration, authentication, routing, and registry sync.
+
+```json
+{"sessionName":"Steps1-12全部完成","summaryContent":"## 任务背景
+Step 12执行：注册表自动同步机制集成到Hub。
+
+## 执行…
