@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "mercury_crab": {
+      "type": "local",
+      "command": ["node", "C:\\Users\\Administrator\\Documents\\GitHub\\Mercury-Crab-Agent\\mcp-server\\dist\\index.js"],
+      "enabled": true,
+      "environment": {
+        "MERCURY_WORKSPACE": "C:\\Users\\Administrator\\Documents\\GitHub\\Mercury-Crab-Agent"
+      }
+    }
+  }
+}

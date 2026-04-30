@@ -1,0 +1,20 @@
+{
+  "name": "mercury-crab-mcp",
+  "version": "1.0.0",
+  "description": "Mercury-Crab-Agent MCP Server - Self-learning AI agent tools",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
